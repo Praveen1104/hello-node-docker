@@ -1,0 +1,9 @@
+version: "3.9"
+
+services:
+  hello-world-app:
+    build: .
+    container_name: hello-world-container
+    restart: always
+    ports:
+      - "5200:5200"
